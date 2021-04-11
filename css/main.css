@@ -8,6 +8,7 @@ html {
 
 nav {
   background-color: #e2e2e2;
+  color: #0074d9;
 }
 
 body {
@@ -19,6 +20,15 @@ img {
   width: 2rem;
 }
 
-ul li {
+nav ul {
+  display: flex;
+  padding: 1rem;
+}
+
+img {
+  display: flex;
+}
+
+header p {
   display: flex;
 }
