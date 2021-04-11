@@ -6,9 +6,12 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  background-color: #e2e2e2;
+}
+
 nav {
   background-color: #e2e2e2;
-  color: #0074d9;
 }
 
 body {
@@ -22,7 +25,9 @@ img {
 
 nav ul {
   display: flex;
-  padding: 1rem;
+  padding: .6em;
+  color: #0074d9;
+  font-size: 1.125rem;
 }
 
 img {
