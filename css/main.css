@@ -30,7 +30,12 @@ nav ul {
   font-size: 1.125rem;
 }
 
-img {
+nav a {
+  color: #0074d9;
+  font-size: 1.125rem;
+}
+
+header img {
   display: flex;
 }
 
