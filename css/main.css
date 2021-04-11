@@ -6,10 +6,19 @@ html {
   box-sizing: inherit;
 }
 
+nav {
+  background-color: #e2e2e2;
+}
+
 body {
   margin: .5rem;
+  background-color: #fff;
 }
 
 img {
-  width: 100%;
+  width: 2rem;
+}
+
+ul li {
+  display: flex;
 }
