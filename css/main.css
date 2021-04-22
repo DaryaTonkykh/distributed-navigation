@@ -38,6 +38,10 @@ header ul li a {
   align-self: center;
 }
 
+header ul li:hover {
+  background-color: #fff;
+}
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -61,4 +65,5 @@ header p {
   padding: 0;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
