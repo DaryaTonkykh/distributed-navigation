@@ -3,6 +3,7 @@ html {
   font-family: sans-serif;
   line-height: 1.5;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -23,16 +24,18 @@ body {
 
 header img {
   display: flex;
-  align-self: auto;
+  align-self: flex-start;
 }
 
 img {
   width: 2rem;
+  align-self: flex-start;
 }
 
 header ul li a {
   text-decoration: none;
   padding: 0 .5rem;
+  align-self: center;
 }
 
 nav ul {
@@ -50,8 +53,12 @@ nav a {
 
 header h1 {
   display: flex;
+  align-self: center;
 }
 
 header p {
   display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
 }
